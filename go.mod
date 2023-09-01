@@ -3,17 +3,17 @@ module github.com/wrossmorrow/envoy-extproc-sdk-go
 go 1.19
 
 require (
-	github.com/envoyproxy/go-control-plane v0.10.3
-	google.golang.org/grpc v1.52.0
+	github.com/envoyproxy/go-control-plane v0.11.1
+	google.golang.org/grpc v1.57.0
 )
 
 require (
-	github.com/cncf/xds/go v0.0.0-20230112175826-46e39c7b9b43 // indirect
-	github.com/envoyproxy/protoc-gen-validate v0.9.1 // indirect
-	github.com/golang/protobuf v1.5.2 // indirect
-	golang.org/x/net v0.5.0 // indirect
-	golang.org/x/sys v0.4.0 // indirect
-	golang.org/x/text v0.6.0 // indirect
-	google.golang.org/genproto v0.0.0-20230112194545-e10362b5ecf9 // indirect
-	google.golang.org/protobuf v1.28.1 // indirect
+	github.com/cncf/xds/go v0.0.0-20230607035331-e9ce68804cb4 // indirect
+	github.com/envoyproxy/protoc-gen-validate v1.0.2 // indirect
+	github.com/golang/protobuf v1.5.3 // indirect
+	golang.org/x/net v0.14.0 // indirect
+	golang.org/x/sys v0.11.0 // indirect
+	golang.org/x/text v0.12.0 // indirect
+	google.golang.org/genproto/googleapis/rpc v0.0.0-20230822172742-b8732ec3820d // indirect
+	google.golang.org/protobuf v1.31.0 // indirect
 )
